@@ -22,7 +22,7 @@ namespace UITest1
         [SetUp]
         public void BeforeEachTest()
         {
-            app = AppInitializer.StartApp(platform);
+            app = AppInitializer.(platform);
         }
 
         [Test]
